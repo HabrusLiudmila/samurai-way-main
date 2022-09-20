@@ -1,7 +1,8 @@
 import React from 'react';
+import './Profile.css';
 
-export const Profile = ()=>{
-    return(
+export const Profile = () => {
+    return (
         <div className="content">
             <div>
                 <img src="https://rosegardening.org/wp-content/uploads/2018/12/2-80.jpg" alt=""/>
@@ -15,12 +16,15 @@ export const Profile = ()=>{
                 <div>
                     New post
                 </div>
-                <div>
-                    post 1
+                <div className="post">
+                    <div className="item">
+                        post 1
+                    </div>
+                    <div className="item">
+                        post 1
+                    </div>
                 </div>
-                <div>
-                    post 1
-                </div>
+
             </div>
         </div>
     )

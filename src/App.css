@@ -10,27 +10,3 @@
     /*grid-gap: 10px;*/
 }
 
-.nav {
-    grid-area: nav;
-    background-color: darkseagreen;
-}
-
-.header {
-    grid-area: header;
-    background-color: #61dafb;
-}
-
-.header img {
-    width: 50px;
-
-}
-
-.content {
-    grid-area: content;
-    background-color: bisque;
-}
-
-.content img {
-    width: 1000px;
-    height: 300px;
-}
