@@ -2,11 +2,11 @@ import React from "react";
 
 const Header = () =>{
     return (
-        <div>
-            <a href='#'>Home</a>
-            <a href='#'>News</a>
-            <a href='#'>Messages</a>
-        </div>
+        <header className="header">
+            <img className="logo"
+                 src="https://e7.pngegg.com/pngimages/342/288/png-clipart-globe-logo-music-globe-miscellaneous-map.png"
+                 alt="logo"/>
+        </header>
     )
 }
 

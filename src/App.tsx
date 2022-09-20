@@ -1,16 +1,20 @@
 import React from 'react';
 import './App.css';
-import Technologies from "./Technologiec";
-import Header from "./Header";
-import Footer from "./Footer";
+import Nav from './Nav';
+import Header from './Header';
+import {Profile} from './Profile';
+
 
 function App() {
     return (
         <div>
-            <Header/>
-            <Technologies/>
-            <Footer/>
+            <div className="aap-wrapper">
+                <Header/>
+                <Nav/>
+                <Profile/>
+            </div>
         </div>
     );
 }
+
 export default App;
