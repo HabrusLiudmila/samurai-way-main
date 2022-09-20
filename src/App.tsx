@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import Nav from './Nav';
-import Header from './Header';
-import {Profile} from './Profile';
+import Nav from './Navbar/Nav';
+import Header from './Header/Header';
+import {Profile} from './Profile/Profile';
 
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
                 <Header/>
                 <Nav/>
                 <Profile/>
+
             </div>
         </div>
     );
