@@ -9,4 +9,6 @@
     grid-template-columns: 2fr 10fr;
     /*grid-gap: 10px;*/
 }
-
+.aap-wrapper-content{
+    background-color: bisque;
+}
